@@ -6,8 +6,8 @@ There are 2 functions:
 2) given distance matrix D, derives the relative points from the centroid (the reverse)
 
 Note: (my observation only)
-DM = getDM(V)
-V' = getXY(DM)
+* DM = getDM(V)
+* V' = getXY(DM)
 
 Here, V and V' may not have the same points. V is V' when V is centered as the centroid, and probably rotated. in other words, V' = HV where H is a transform matrix (similarity, i.e, by location and rotation only)
 
